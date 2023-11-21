@@ -37,7 +37,7 @@ class App {
         parrafo.innerHTML = warning;
       } else {
         parrafo.innerHTML = "Enviado";
-        alert("tu registo fue guardado en el sessionStorage");
+        alert("tu registro fue guardado en el sessionStorage");
 
         const datoUsuario = {
           nombre: nombre.value,
