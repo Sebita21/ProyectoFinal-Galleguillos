@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="/CSS/estilo2.css">
+    <title>Registro</title>
+</head>
+<body>
+   <div class="contenedor">
+    <div class="form-contenedor">
+        <h1 id="titulo">Registro</h1>
+        <form method="get" id="form-registro">
+            <div class="input-group">
+            <div class="input-field" id="nomInput">
+                <i class="fa-solid fa-user"></i>
+                <input type="text" id="nombre" placeholder="Nombre">
+            </div>
+            <div class="input-field">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" id="email" placeholder="Correo">
+            </div>
+            <div class="input-field">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" id="password" placeholder="Contraseña">
+            </div>
+            <P>Olvidaste tu Contraseña <a href="#">Click Aqui</a></P>
+            </div>
+            <div class="btn-field">
+                <button id="signUp" type="submit">Registro</button>
+                <button id="signIn" type="submit" class="disable">Login</button>
+            </div>
+            <p class="warning" id="warning"></p>
+        </form>
+    </di>
+   </div>
+    <script src="/JS/login.js"></script>
+</body>
+</html>
