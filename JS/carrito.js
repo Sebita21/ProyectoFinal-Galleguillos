@@ -1,55 +1,11 @@
 
-let itemsCarrito=[];
-let totalCarrito=0;
+const file = '../DATA/productos.js';
 
-const producto = [
-  {
-    id: 1,
-    marca: "Mouse Logitech",
-    imgen: "./IMAGENES/imagen1.png",
-    precio: 89000,
-    modelo: "MX Master 3S",
-  },
+let itemsCarrito = [];
+let totalCarrito = 0;
 
-  {
-    id: 2,
-    marca: "Teclado Logitech",
-    imgen: "./IMAGENES/imagen2.png",
-    precio: 180000,
-    modelo: "MX Mechanical Mini Español",
-  },
+function cargarProducto() {
 
-  {
-    id: 3,
-    marca: "Audifono Gamer Logitech",
-    imgen: "./IMAGENES/imagen3.png",
-    precio: 70000,
-    modelo: "Astro A10 Blancos",
-  },
-  {
-    id: 4,
-    marca: "Camara Web",
-    imgen: "./IMAGENES/imagen4.png",
-    precio: 30000,
-    modelo: "C310 HD 720p negro",
-  },
-  {
-    id: 5,
-    marca: "Logitech",
-    imgen: "./IMAGENES/imagen5.png",
-    precio: 450000,
-    modelo: "Volante Palanca G920 para Xbox Series X-S Xbox One y PC.",
-  },
-  {
-    id: 6,
-    marca: "Logitech G",
-    imgen: "./IMAGENES/imagen6.png",
-    precio: 49000,
-    modelo: "Alfombra XL 840 K/DA XL 900 X 400mm.",
-  },
-];
-
- function cargarProducto() {
    const productoList = document.getElementById("producto-list");
 
    producto.forEach((producto) => {
@@ -111,6 +67,7 @@ const producto = [
     li.innerHTML = `
       <span>${item.marca} - $${item.precio}</span>
       <button class="fa fa-trash" onclick="eliminarProducto(${item.id}, ${item.precio})"></button>
+      
     `;
     carritoList.appendChild(li);
   });
@@ -120,7 +77,7 @@ const producto = [
  
  function totalApagar() {
    if (itemsCarrito.length > 0) {
-     alert(`Total a pagar: $${totalCarrito}`);
+      Swal.fire(`Total a Pagar: $${totalCarrito}`);
      itemsCarrito = [];
      totalCarrito = 0;
 
@@ -129,8 +86,10 @@ const producto = [
 
      guardarCarrito();
    } else {
-     alert(
-       "El carrito está vacío. ¡Agrega productos antes de realizar el pedido!"
-     );
+   
+    Swal.fire(
+      'El carrito está vacío. ¡Agrega productos antes de realizar el pedido!'
+    );
    }
  }
+
