@@ -1,10 +1,13 @@
 
-const file = '../DATA/productos.js';
+const file = 
+  'https://raw.githubusercontent.com/Sebita21/Entregable2-Galleguillos/main/DATA/productos.json';
 
 let itemsCarrito = [];
 let totalCarrito = 0;
 
-function cargarProducto() {
+async function cargarProducto() {
+
+  const  producto = await realizarPeticion(file);
 
    const productoList = document.getElementById("producto-list");
 
@@ -93,3 +96,17 @@ function cargarProducto() {
    }
  }
 
+ async function realizarPeticion(datos){
+    try{
+      const response = await fetch(datos);
+
+      if (!response.ok) {
+        throw new Error(`Error en la Petición: ${response.status} ${response.statusText}`);
+      }
+       const data = await response.json();
+
+       return data;  
+    }catch(error){
+        console.error(error)
+    }
+ }
