@@ -10,7 +10,7 @@
   {
     "id": 2,
     "marca": "Teclado Logitech",
-   "imgen": "./IMAGENES/imagen2.png",
+    "imgen": "./IMAGENES/imagen2.png",
     "precio": 180000,
     "modelo": "MX Mechanical Mini Español"
   },
@@ -40,7 +40,7 @@
     "id": 6,
     "marca": "Logitech G",
     "imgen": "./IMAGENES/imagen6.png",
-    "precio": 49000,
+    "precio": 42000,
     "modelo": "Alfombra XL 840 K/DA XL 900 X 400mm."
   }
 ]
