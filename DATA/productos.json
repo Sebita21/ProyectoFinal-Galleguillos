@@ -2,7 +2,7 @@
   {
     "id": 1,
     "marca": "Mouse Logitech",
-    "imgen": "./IMAGENES/imagen1.png",
+    "imgen": "https://sc7.scart.cl:8080/images/858aad19-7192-4de4-a4c8-0e548c9a35f2.png",
     "precio": 89000,
     "modelo": "MX Master 3S"
   },
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "marca": "Teclado Logitech",
-    "imgen": "./IMAGENES/imagen2.png",
+    "imgen": "https://sc7.scart.cl:8080/images/d289add3-18a6-4ae2-92a1-8749bf85b3f0.png",
     "precio": 180000,
     "modelo": "MX Mechanical Mini Español"
   },
@@ -18,30 +18,30 @@
   {
     "id": 3,
     "marca": "Audifono Gamer Logitech",
-    "imgen": "./IMAGENES/imagen3.png",
+    "imgen": "https://sc7.scart.cl:8080/images/8fddbedc-5595-45b0-b902-58cc92000178.png",
     "precio": 70000,
     "modelo": "Astro A10 Blancos"
   },
   {
     "id": 4,
     "marca": "Camara Web",
-    "imgen": "./IMAGENES/imagen4.png",
+    "imgen": "https://sc7.scart.cl:8080/images/81ba6c1f-b851-4480-838f-5de12b6de8b8.png",
     "precio": 30000,
-    "modelo": "C310 HD 720p negro"
+    "modelo": "Brio 500 Full HD 1080p White"
   },
   {
     "id": 5,
     "marca": "Logitech",
-    "imgen": "./IMAGENES/imagen5.png",
+    "imgen": "https://sc7.scart.cl:8080/images/1825f317-3790-4419-980b-65403280ad97.png",
     "precio": 450000,
     "modelo": "Volante Palanca G920 para Xbox Series X-S Xbox One y PC."
   },
   {
     "id": 6,
     "marca": "Logitech G",
-    "imgen": "./IMAGENES/imagen6.png",
+    "imgen": "https://sc7.scart.cl:8080/images/6cae03a9-f4e0-47bc-9db4-d9cc2f5700e6.png",
     "precio": 42000,
-    "modelo": "Alfombra XL 840 K/DA XL 900 X 400mm."
+    "modelo": "Mouse Pad gamer G640 de tela cloud 9"
   },
   {
     "id": 7,
@@ -84,26 +84,6 @@
     "imagen": "https://sc7.scart.cl:8080/images/5608ff53-a3a1-44a4-9191-e41183013e4b.png",
     "precio": 339990 ,
     "modelo": "Apple Pencil 1ra Generación"
-  },
-  {
-    "id": 13,
-    "marca": "Apple ",
-    "imagen": "https://sc7.scart.cl:8080/images/eb968fb6-5a6c-4558-a83c-89c276016d03.png",
-    "precio": 179990 ,
-    "modelo": "Apple Watch Series 6 GPS Caja de Aluminio en Color Oro 40 mm " 
-  },
-  {
-    "id": 14,
-    "marca": "HP",
-    "imagen": "https://sc7.scart.cl:8080/images/7f60c937-d789-4347-a32e-8783bfd2eb70.png",
-    "precio": 1039990 ,
-    "modelo": "Notebook HP Pavilion Gaming 15-dk1043la Intel Core i5-10300H Nvidia GeForce GTX 1650Ti 8GB 512GB SSD 15.6"
-  },
-  {
-    "id": 15,
-    "marca": "HP ",
-    "imagen": "https://sc7.scart.cl:8080/images/2897d150-5cff-4d46-b78f-12dd5260f2cb.png",
-    "precio": 629990 ,
-    "modelo": "HP ProOne 400 G4 - 5DV69LA#ABM"
   }
+ 
 ]
